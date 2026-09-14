@@ -114,62 +114,6 @@ python duplicate_detector.py
 6. 💾 Saves detailed results and logs
 7. 📊 Displays summary report
 
-### Example Output
-
-```
-============================================================
-🔍 Multi-Cloud Duplicate Photo Detector & Manager
-============================================================
-
-📸 Fetching from Google Photos...
-✅ Found 245 items in Google Photos
-
-🔍 Fetching from Google Drive...
-✅ Found 89 images in Google Drive
-
-📁 Fetching from Dropbox...
-✅ Found 156 images in Dropbox
-
-📊 Total files found: 490
-
-🤖 Analyzing with Claude AI...
-Analyzing batches: 100%|████| 25/25
-
-🔄 Processing Duplicates...
-
-📋 Processing Group 1...
-   ✅ KEEPING: google_photos - vacation_2024.jpg
-   ⬇️  DOWNLOADED: google_drive - vacation_2024.jpg
-   ⬇️  DOWNLOADED: dropbox - vacation_2024.jpg
-
-📋 Processing Group 2...
-   ✅ KEEPING: google_photos - photo_001.png
-   ⬇️  DOWNLOADED: google_drive - photo_001.png
-
-============================================================
-🎯 DUPLICATE GROUPS FOUND & PROCESSED
-============================================================
-
-📋 Group 1 (Confidence: HIGH)
-   Reason: Identical filename and size, same creation date
-   Files:
-     ✅ KEPT • google_photos: vacation_2024.jpg
-     ⬇️ DOWNLOADED • google_drive: vacation_2024.jpg
-     ⬇️ DOWNLOADED • dropbox: vacation_2024.jpg
-
-📋 Group 2 (Confidence: MEDIUM)
-   Reason: Similar filename, same dimensions, close dates
-   Files:
-     ✅ KEPT • google_photos: photo_001.png
-     ⬇️ DOWNLOADED • google_drive: photo_001.png
-
-============================================================
-💾 Total duplicate groups found: 12
-📁 Duplicates saved to: /path/to/Duplicates from google
-📋 Files downloaded: 24
-============================================================
-```
-
 ## Results & Logs
 
 ### Duplicate Analysis (`duplicates_TIMESTAMP.json`)

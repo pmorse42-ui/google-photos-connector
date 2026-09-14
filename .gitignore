@@ -1,0 +1,20 @@
+.env
+.env.local
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+*.egg-info/
+.installed.cfg
+*.egg
+storage/
+Duplicates from google/
+*.json
+token.pickle
+credentials.json
+.DS_Store
